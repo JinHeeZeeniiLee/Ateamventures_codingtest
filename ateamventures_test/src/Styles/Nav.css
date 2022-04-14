@@ -1,0 +1,28 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1565C0;
+    height: 44px;
+    align-items: center;
+}
+
+
+
+.nav_userbox{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-self: center;
+}
+
+
+.userbox_name{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-self: center;
+}
+
+button {
+    background-color: none;
+}
