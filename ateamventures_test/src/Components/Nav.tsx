@@ -9,16 +9,18 @@ const Nav: React.FC = () => {
  return (
      <>
      <div className="nav_container">
-         <div className="nav_title">
+         <a className="nav_title" href="/">
             <img src={logo}/>
-         </div>
+         </a>
 
          <div className="nav_userbox">
             <div className="userbox_name">
                 <img src={Vector}/>
                 A 가공업체
             </div>
-            <img src={divider}/>
+            <div className="divider_box">
+                <img src={divider}/>
+            </div>
             <div className="logout_button">
                 <button type="button">로그아웃</button>
             </div>
