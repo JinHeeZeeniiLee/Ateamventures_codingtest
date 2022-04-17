@@ -1,22 +1,45 @@
-@import url("https://fonts.google.com/noto/specimen/Noto+Sans+KR");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
 
 .req_box{
     margin: 40px 155px;
-    border: 1px solid #000000;
 };
 
-
 .req-title{
+    position: absolute;
     font-size: 20px;
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR Bold';
     font-weight: bold;
+    color: #323D45;
 }
-
 
 .req-box-exp{
     font-size: 16px;
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR Regular';
     font-weight: normal;
+    color: #323D45;
+}
+
+.filter_boundary{
+    margin-top: 32px;
+    display: flex;
+    justify-content:space-between;
+    width: auto !important;
+    
+}
+
+.toggle_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+.toggle{
+    display: flex;
+    width: 50px;
 }
 
 .dashboard{
@@ -24,7 +47,8 @@
     border: 1px dotted #000000;
     width: auto;
     height: 712px;
-    grid-template-columns: repeat(3, 356px);
-    grid-template-rows: repeat(3, 366px);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 16px;
     margin: 32px 155px;
 }

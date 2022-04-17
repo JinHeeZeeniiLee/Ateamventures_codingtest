@@ -1,0 +1,28 @@
+.toggle_container{
+    position: absolute;
+    width:  34px;
+    height: 14px;
+    background-color:#C2C2C2;
+    border-radius:10px;
+}::after{
+    background-color:#BBDEFB;
+    transition: all 0.2s ease;
+}
+
+.toggle_circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    top: 0px;
+}
+::before{
+    right: 17px;
+}
+::after{
+    left: 17px;
+    background-color: #2196F3;
+}
+
